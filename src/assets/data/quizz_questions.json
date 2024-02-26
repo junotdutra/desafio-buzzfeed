@@ -1,0 +1,60 @@
+{
+  "title":"Teste seu nivel de ansiedade!",
+  "questions":[
+    {
+      "id":1,
+      "question": "Com que frequência você se sente nervoso(a), ansioso(a) ou muito tenso(a)?",
+      "options":[
+        {"id": 1, "name":"Nenhuma vez", "alias":"A"},
+        {"id": 2, "name":"Vários dias", "alias":"A"},
+        {"id": 3, "name":"Mais da metade dos dias", "alias":"B"},
+        {"id": 4, "name":"Quase todos os dias", "alias":"B"}
+
+      ]
+    },
+    {
+      "id":2,
+      "question": "Com que frequência você não se sente capaz de impedir ou de controlar as preocupações?",
+      "options":[
+        {"id": 1, "name":"Nenhuma vez", "alias":"A"},
+        {"id": 2, "name":"Vários dias", "alias":"A"},
+        {"id": 3, "name":"Mais da metade dos dias", "alias":"B"},
+        {"id": 4, "name":"Quase todos os dias", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Com que frequência você se preocupa muito com diversas coisas?",
+      "options":[
+        {"id": 1, "name":"Nenhuma vez", "alias":"A"},
+        {"id": 2, "name":"Vários dias", "alias":"A"},
+        {"id": 3, "name":"Mais da metade dos dias", "alias":"B"},
+        {"id": 4, "name":"Quase todos os dias", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Com que frequência você você tem dificuldade para relaxar?",
+      "options":[
+        {"id": 1, "name":"Nenhuma vez", "alias":"A"},
+        {"id": 2, "name":"Vários dias", "alias":"A"},
+        {"id": 3, "name":"Mais da metade dos dias", "alias":"B"},
+        {"id": 4, "name":"Quase todos os dias", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Com que frequência você fica tão agitado(a) que se torna difícil permanecer sentado(a)?",
+      "options":[
+        {"id": 1, "name":"Nenhuma vez", "alias":"A"},
+        {"id": 2, "name":"Vários dias", "alias":"A"},
+        {"id": 3, "name":"Mais da metade dos dias", "alias":"B"},
+        {"id": 4, "name":"Quase todos os dias", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você muito provavelmente não tem ansiedade!",
+    "B": "Você muito provavelmente sofre com ansiedade!"
+  }
+}
